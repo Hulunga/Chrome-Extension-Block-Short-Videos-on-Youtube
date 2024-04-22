@@ -1,0 +1,27 @@
+{
+  "manifest_version": 3,
+  "name": "Block Short Videos on YouTube",
+  "version": "1.0",
+  "description": "Această extensie te va ajuta să fii mai productiv, oprind videoclipurile scurte să funcționeze",
+  "permissions": [
+    "tabs",
+    "activeTab"
+  ],
+  "content_scripts": [
+    {
+      "matches": [
+        "*://www.youtube.com/*"
+      ],
+      "js": ["content.js"]
+    }
+  ],
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": {
+      "48": "images/icon48.png"
+    }
+  },
+  "icons": {
+    "48": "images/icon48.png"
+  }
+}
