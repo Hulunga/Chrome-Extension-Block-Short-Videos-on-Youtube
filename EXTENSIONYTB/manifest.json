@@ -2,7 +2,7 @@
   "manifest_version": 3,
   "name": "Block Short Videos on YouTube",
   "version": "1.0",
-  "description": "Această extensie te va ajuta să fii mai productiv, oprind videoclipurile scurte să funcționeze",
+  "description": "This extension will help you be more productive by stopping short videos from working",
   "permissions": [
     "tabs",
     "activeTab"
